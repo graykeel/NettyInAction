@@ -1,5 +1,5 @@
 /*
- * Copyright 2013-2018 Lilinfeng.
+ * Copyright 2013-2018 wishell.
  *  
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@ public class TestSubscribeReqProto {
 	SubscribeReqProto.SubscribeReq.Builder builder = SubscribeReqProto.SubscribeReq
 		.newBuilder();
 	builder.setSubReqID(1);
-	builder.setUserName("Lilinfeng");
+	builder.setUserName("wishell");
 	builder.setProductName("Netty Book");
 	List<String> address = new ArrayList<>();
 	address.add("NanJing YuHuaTai");

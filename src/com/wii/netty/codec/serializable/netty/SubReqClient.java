@@ -28,7 +28,7 @@ import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */

@@ -1,5 +1,5 @@
 /*
- * Copyright 2013-2018 Lilinfeng.
+ * Copyright 2013-2018 wishell.
  *  
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */

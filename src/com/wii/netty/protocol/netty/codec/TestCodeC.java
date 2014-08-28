@@ -1,5 +1,5 @@
 /*
- * Copyright 2013-2018 Lilinfeng.
+ * Copyright 2013-2018 wishell.
  *  
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -49,7 +49,7 @@ public class TestCodeC {
 	header.setPriority((byte) 7);
 	Map<String, Object> attachment = new HashMap<String, Object>();
 	for (int i = 0; i < 10; i++) {
-	    attachment.put("ciyt --> " + i, "lilinfeng " + i);
+	    attachment.put("ciyt --> " + i, "wishell " + i);
 	}
 	header.setAttachment(attachment);
 	nettyMessage.setHeader(header);

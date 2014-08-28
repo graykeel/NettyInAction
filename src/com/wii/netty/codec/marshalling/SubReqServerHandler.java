@@ -23,7 +23,7 @@ import com.wii.netty.codec.pojo.SubscribeReq;
 import com.wii.netty.codec.pojo.SubscribeResp;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */
@@ -34,7 +34,7 @@ public class SubReqServerHandler extends ChannelHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg)
 	    throws Exception {
 	SubscribeReq req = (SubscribeReq) msg;
-	if ("Lilinfeng".equalsIgnoreCase(req.getUserName())) {
+	if ("wishell".equalsIgnoreCase(req.getUserName())) {
 	    System.out.println("Service accept client subscrib req : ["
 		    + req.toString() + "]");
 	    ctx.writeAndFlush(resp(req.getSubReqID()));

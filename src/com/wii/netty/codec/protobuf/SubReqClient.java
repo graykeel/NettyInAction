@@ -29,7 +29,7 @@ import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */

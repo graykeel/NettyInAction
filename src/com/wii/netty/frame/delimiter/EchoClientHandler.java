@@ -20,7 +20,7 @@ import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */
@@ -28,7 +28,7 @@ public class EchoClientHandler extends ChannelHandlerAdapter {
 
     private int counter;
 
-    static final String ECHO_REQ = "Hi, Lilinfeng. Welcome to Netty.$_";
+    static final String ECHO_REQ = "Hi, wishell. Welcome to Netty.$_";
 
     /**
      * Creates a client-side handler.

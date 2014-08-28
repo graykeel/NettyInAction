@@ -23,7 +23,7 @@ import io.netty.channel.ChannelHandlerContext;
 import java.util.logging.Logger;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */

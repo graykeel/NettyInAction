@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */
@@ -46,7 +46,7 @@ public class SubReqClientHandler extends ChannelHandlerAdapter {
 	SubscribeReqProto.SubscribeReq.Builder builder = SubscribeReqProto.SubscribeReq
 		.newBuilder();
 	builder.setSubReqID(i);
-	builder.setUserName("Lilinfeng");
+	builder.setUserName("wishell");
 	builder.setProductName("Netty Book For Protobuf");
 	List<String> address = new ArrayList<>();
 	address.add("NanJing YuHuaTai");

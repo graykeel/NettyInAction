@@ -21,7 +21,7 @@ import io.netty.channel.ChannelHandlerContext;
 import com.wii.netty.codec.pojo.SubscribeReq;
 
 /**
- * @author lilinfeng
+ * @author wishell
  * @date 2014年2月14日
  * @version 1.0
  */
@@ -47,7 +47,7 @@ public class SubReqClientHandler extends ChannelHandlerAdapter {
 	req.setPhoneNumber("138xxxxxxxxx");
 	req.setProductName("Netty Book For Marshalling");
 	req.setSubReqID(i);
-	req.setUserName("Lilinfeng");
+	req.setUserName("wishell");
 	return req;
     }
 

@@ -1,5 +1,5 @@
 /*
- * Copyright 2013-2018 Lilinfeng.
+ * Copyright 2013-2018 wishell.
  *  
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import io.netty.handler.codec.http.FullHttpResponse;
 import java.util.List;
 
 /**
- * @author Lilinfeng
+ * @author wishell
  * @date 2014年3月1日
  * @version 1.0
  */
